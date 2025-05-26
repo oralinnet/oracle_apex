@@ -1,6 +1,3 @@
-# Apex 20.x, 21.x, 22.x Install Guide
-
-## Step 1: Create APEX Tablespace
 
 ## Prerequisites
 
@@ -17,6 +14,8 @@ Before you begin, ensure you have the following:
 - **Firewall access** to open required ports (e.g., 9011, 8804)
 - **Basic command-line skills** (for running shell and SQL commands)
 - **(Optional) Nginx** if you plan to use a reverse proxy
+
+## Step 1: Create APEX Tablespace
 
 ```sh
 sqlplus / as sysdba
@@ -122,7 +121,7 @@ create tablespace apex datafile '/u01/app/oracle/oradata/CLOUDDB/oradev/apex01.d
 
 7. **Open Tomcat Port in Firewall:**
     ```sh
-    firewall-cmd --permanent --add-port=9011/tcp
+    firewall-cmd --permanent --add-port=8080/tcp
     firewall-cmd --reload
     ```
 
