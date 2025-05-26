@@ -8,10 +8,10 @@ Before you begin, ensure you have the following:
 - **APEX 22.2 ZIP file** (downloaded from Oracle)
 - **ORDS 22.x ZIP file** (downloaded from Oracle)
 - **Apache Tomcat 9.x** (downloaded from [Tomcat website](https://tomcat.apache.org/))
-- **JDK 20** (downloaded and ready to install)
+- **JDK 20** (downloaded from [Oracle website](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html))
 - **Linux server** (commands assume a Linux environment; adjust paths for your OS)
 - **Sufficient disk space** for tablespaces and software
-- **Firewall access** to open required ports (e.g., 9011, 8804)
+- **Firewall access** to open required ports (e.g., 8080)
 - **Basic command-line skills** (for running shell and SQL commands)
 - **(Optional) Nginx** if you plan to use a reverse proxy
 
