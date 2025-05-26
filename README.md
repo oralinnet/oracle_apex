@@ -28,4 +28,5 @@ This repository provides a step-by-step guide for installing **Oracle Applicatio
 
 ## 📄 Documentation
 
-- [Apex_install_22x.md](./Apex_install_22x.md): Complete installation and configuration guide.
+- [Apex_install](./Apex_install_22x.md): Complete installation and configuration guide.
+- [Apex_Version_Upgrade](./apex_upgrade.md): Apex Version Upgrade 
